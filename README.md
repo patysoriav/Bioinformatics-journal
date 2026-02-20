@@ -8,6 +8,7 @@ The objective is download all the Sequence Read Archive (SRA) from NCBI to Lacca
 the SRA from NCBI directly and compare the results because I'm not sure if what I did downloaded them all.
 
 1. Download only the RNA-seq in the terminal directly
+   
 `esearch -db sra -query "\"Laccaria bicolor\" AND RNA-Seq[Strategy]" | \
 efetch -db sra -format runinfo > Laccaria_bicolor_RNAseq.csv`
 
