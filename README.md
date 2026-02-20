@@ -16,3 +16,19 @@ efetch -db sra -format runinfo > Laccaria_bicolor_RNAseq.csv`
 
 `head -n 5 Laccaria_bicolor_RNAseq.csv`
 
+3. Move the file with RNA-seq to the pps/Lbicolor folder
+
+`scp /Users/pattysoria/Laccaria_bicolor_RNAseq.csv pps5656@submit.hpc.psu.edu:/storage/home/pps5656/Users/pps/Lbicolor`
+
+4. Edit and Run the script getSRA-generic.slurm
+
+First, edit the file with nano to change the user (ria5282 to pps5656) and the name of the file to read to Laccaria_bicolor_RNAseq.csv. Then 
+
+Edit `nano getSRA-generic.slurm`
+
+Run scrip `sbatch getSRA-generic.slurm`
+
+**Job ID:** 48632555
+
+
+
