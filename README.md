@@ -22,7 +22,7 @@ efetch -db sra -format runinfo > Laccaria_bicolor_RNAseq.csv`
 
 4. Edit and Run the script getSRA-generic.slurm
 
-First, i edited the file with nano to change the user (ria5282 to pps5656) and the name of the file to read to Laccaria_bicolor_RNAseq.csv. Then 
+First, I edited the file with nano to change the user (ria5282 to pps5656) and the name of the file to read to Laccaria_bicolor_RNAseq.csv. Then 
 
 Edit `nano getSRA-generic.slurm`
 
