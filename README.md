@@ -12,3 +12,7 @@ the SRA from NCBI directly and compare the results because I'm not sure if what 
 `esearch -db sra -query "\"Laccaria bicolor\" AND RNA-Seq[Strategy]" | \
 efetch -db sra -format runinfo > Laccaria_bicolor_RNAseq.csv`
 
+2. Verify that it downloaded correctly (seeing the first lines)
+
+`head -n 5 Laccaria_bicolor_RNAseq.csv`
+
