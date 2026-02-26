@@ -4,7 +4,8 @@ Journal for Phytophthoras project
 Download data from dropbox usigin the next link 
 [Data Phytophthoras](https://www.dropbox.com/personal/data/Phytophthoras)
 
-Upload data `scp nombre_archivo.fastq.gz pps5656@submit.hpc.psu.edu:/storage/home/pps5656/
+Upload data `scp /Users/pattysoria/name_Phytophthoras pps5656@submit.hpc.psu.edu:/storage/home/pps5656/Users/pps/Phytophthora`
+
 
 
 
